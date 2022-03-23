@@ -267,3 +267,7 @@
   });
 
 })()
+
+const onResume = (person) => {
+  window.open(`resumes/${person}.pdf`, '_blank');
+};
